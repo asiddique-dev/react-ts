@@ -3,7 +3,6 @@ import Products from "./pages/products/Products";
 import Navbar from "./components/navbar/Navbar";
 import Menu from "./components/menu/Menu";
 import "./styles/global.scss";
-import Product from "./pages/product/Product";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const queryClient = new QueryClient();
